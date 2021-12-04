@@ -1,0 +1,42 @@
+form
+{
+    width: 75%;
+}
+img
+{
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+}
+.caption
+{
+    padding: 10px 20px;
+    width: 70%;
+}
+input
+{
+    margin: 20px 0px;
+}
+.user
+{
+    margin-top: 5%;
+}
+.btnbuy
+{
+    background-color: var( --secondary-color);
+    /* color: var(--primary-color); */
+    color: rgb(191, 216, 192);
+}
+@media screen and (max-width:600px) {
+    form
+    {
+        width: 100%;
+    }
+    img
+    {
+        width: 100%;
+        object-fit: contain;
+    }    
+}

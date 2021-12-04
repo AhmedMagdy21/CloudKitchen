@@ -1,0 +1,19 @@
+<section>
+    <div class="container mt-5 mb-4">
+        <h2 class="m-5 text-center">Customers <span class="highlight">Favourites Food </span></h2>
+        <div class="row">
+            <div class="col-lg-3" *ngFor="let fd of foodData ">
+                <div class="foodbox" >
+                     <img src="{{fd.foodImg}}" alt="#">
+                     <div class="content-menu">
+                        <h3>{{fd.foodName}}</h3>
+                        <p class="details" >{{fd.foodDetails}}... </p>
+                        <p class="price">{{fd.foodPrice}} \ EGP</p>
+                        <a class="btnbuy btn"[routerLink]="['/menu',fd.id]">Buy <i class="fas fa-shopping-bag"></i></a>
+                     </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+.nav-container
+{
+    width: 100%;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    /* color: var(--secondary-color); */
+    color: #fff;
+
+} 
+
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+nav a
+{
+    color: #fff;
+}

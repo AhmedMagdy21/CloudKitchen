@@ -1,0 +1,88 @@
+.home
+{
+    background-color: #f7f7f7;
+}
+.banner
+{
+    background-image: url(../../../assets/img/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.content h1
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.content a 
+{
+    text-decoration: none;
+    /* background-color: #fff; */
+    /* color: var(--primary-color); */
+    padding: 15px 20px;
+}
+.stepBox
+{
+    background-color: var(--secondary-color);
+    padding: 20px ;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h3 
+{
+    font-weight: bold;
+    color:var(--primary-color);
+}
+.stepBox p 
+{
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+}
+.highlight
+{
+    color:var(--primary-color);
+    font-weight: bold;
+    /* font-style: italic; */
+    text-decoration: underline;
+}
+.foodbox
+{
+    padding: 10px 5px;
+}
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h3
+{
+    font-size: 18px;
+    margin-top: 15px;
+    color:var(--primary-color);
+}
+.foodbox p
+{
+    font-weight: bold;
+}
+.price
+{
+    color:darkolivegreen;
+}
+.viewbtn
+{
+    text-decoration: none;
+    background-color: var( --secondary-color);
+    /* color: var(--primary-color); */
+    color: rgb(191, 216, 192);
+}

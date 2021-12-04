@@ -1,0 +1,49 @@
+<section class="home" >
+    <div class="banner">
+        <div class="content">
+            <h1 class="mb-4">Freesh Cooked Food <br> At Your Door.</h1>
+            <a class="btn btn-success" routerLink="menu">ORDER NOW <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <!-- step -->
+   <div class="container mt-5 mb-4">
+       <h2 class="text-center">How to get <span class="highlight" > fresh food </span></h2>
+       <div class="row mt-5">
+           <div class="col-lg-4 mt-2">
+               <!-- one -->
+               <div class="stepBox">
+                <h3>1</h3>
+                <p>select food</p>
+               </div>
+           </div>
+           <div class="col-lg-4 mt-2">
+               <!-- two -->
+            <div class="stepBox">
+                <h3>2</h3>
+                <p>fill the details</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <!-- three -->
+            <div class="stepBox">
+                <h3>3</h3>
+                <p>your order delivered in minute</p>
+            </div>
+        </div>
+       </div>
+   </div>
+   <!-- foodBox -->
+   <div class="container mt-5 mb-4">
+       <h2 class="m-5 text-center">Customers <span class="highlight">Favourites Food </span></h2>
+       <div class="row">
+           <div class="col-lg-3" *ngFor="let fd of foodData ; index as i">
+               <div class="foodbox" *ngIf="i<=3">
+                    <img src="{{fd.foodImg}}" alt="#">
+                    <h3>{{fd.foodName}}</h3>
+                    <p class="price">{{fd.foodPrice}} \ EGP</p>
+               </div>
+           </div>
+       </div>
+       <a routerLink="menu" class="viewbtn btn" > View more</a>
+   </div>
+</section>

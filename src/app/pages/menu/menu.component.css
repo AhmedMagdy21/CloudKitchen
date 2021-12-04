@@ -1,0 +1,53 @@
+.foodbox
+{
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    
+}
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.content-menu
+{
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+.foodbox h3
+{
+    font-size: 18px;
+    /* margin-top: 15px; */
+    color:var(--primary-color);
+    padding: 5px ;
+}
+.foodbox p
+{
+    margin-top: 5px;
+    padding: 5px ;
+
+  
+}
+.details
+{
+    height: 120px;
+}
+.price
+{
+    
+    color:darkolivegreen;
+    font-weight: bold;
+
+}
+.btnbuy
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: var( --secondary-color);
+    /* color: var(--primary-color); */
+    color: rgb(191, 216, 192);
+}
