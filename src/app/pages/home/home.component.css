@@ -1,6 +1,6 @@
 .home
 {
-    background-color: #f7f7f7;
+    margin: 70px 0;
 }
 .banner
 {
@@ -32,7 +32,7 @@
 .stepBox
 {
     background-color: var(--secondary-color);
-    padding: 20px ;
+    padding: 10px ;
     border-radius: 5px;
     text-align: center;
 }
